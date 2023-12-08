@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+#canvas {
+    position: relative;
+    background-image: url('https://img.freepik.com/free-photo/smooth-white-stucco-wall_1194-6786.jpg?w=1800&t=st=1701456170~exp=1701456770~hmac=9863daa6f52c68eb2ef5d3738626f7ae900436593f1a85457fddf75de28ec4d7');
+    margin: 1em auto;
+}
+.ball {
+background-color: #7526c9;
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.trail {
+position: absolute;
+background-color: rgba(255, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+border-radius: 50%;
+z-index: 0;
+}

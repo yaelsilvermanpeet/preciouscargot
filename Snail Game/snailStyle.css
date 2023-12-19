@@ -13,9 +13,6 @@ background-color: #7526c9;
     border-radius: 50%;
 }
 
-.trail {
-position: absolute;
-background-color: rgba(255, 0, 0, 0.5); /* Adjust the color and opacity as needed */
-border-radius: 50%;
-z-index: 0;
-}
+
+
+
